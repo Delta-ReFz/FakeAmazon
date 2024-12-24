@@ -60,4 +60,20 @@ function removeFromCart(productId) {
     cart = newCart;
 
     saveToStorage();
+};
+
+function updateDeliveryOption(productId, deliveryOptionId) {
+    let matchingItem;
+
+    //To see if the product is in the cart
+    cart.forEach((cartItem) => {
+        if (productId === cartItem.productId) {
+            matchingItem = cartItem;
+        }
+
+    });
+
+    matchingItem.deliveryOptionId = deliveryOptionId;
+
+    saveToStorage();
 }

@@ -1,4 +1,3 @@
-
 function renderOrderSummary() {
 
   let cartSummaryHTML = '';
@@ -168,13 +167,17 @@ function renderPaymentSummary() {
           <div class="payment-summary-money">$${(totalCents/ 100).toFixed(2)}</div>
         </div>
 
-        <button class="place-order-button button-primary">
+        <button class="place-order-button button-primary js-place-order">
           Place your order
         </button>
 
   `;
 
   document.querySelector('.js-payment-summary').innerHTML = paymentSummaryHTML;
+
+  document.querySelector('.js-place-order').addEventListener('click', async () => {
+    window.location.href='orders.html';
+  })
 
 };
 

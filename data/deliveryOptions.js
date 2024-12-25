@@ -14,3 +14,16 @@ const deliveryOptions = [{
     priceCents: 999
 }
 ];
+
+function getDeliveryOption(deliveryOptionId) {
+
+    let deliveryOption;
+
+    deliveryOptions.forEach((option) => {
+      if (option.id === deliveryOptionId) {
+        deliveryOption = option;
+      }
+    });
+
+    return deliveryOption || deliveryOptions[0];
+}

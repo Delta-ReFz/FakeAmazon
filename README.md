@@ -9,7 +9,7 @@ This project is a mock e-commerce platform inspired by Amazon, designed for educ
 - **Search Functionality**: Allows users to search for products by name or category.
 - **Shopping Cart**: Users can add and remove items from a cart, with a dynamic total price calculation.
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
-- **Dark Mode**: Option to toggle between light and dark themes.
+
   
 ---
 

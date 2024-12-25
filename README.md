@@ -1,6 +1,7 @@
 # Fake Amazon Project
 
 This project is a mock e-commerce platform inspired by Amazon. It showcases a functional front-end built with **HTML**, **CSS**, and **JavaScript**, with features like a product catalog, shopping cart, and a responsive design.
+- **Can look at it**: https://delta-refz.github.io/FakeAmazon/
 
 ---
 
